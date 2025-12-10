@@ -1,0 +1,33 @@
+{
+  "name": "e-commerce-api",
+  "version": "1.0.0",
+  "description": "A RESTful E-Commerce API.",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "nodemon ./dist/server.js",
+    "watch": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omeresmr/e-commerce-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/omeresmr/e-commerce-api/issues"
+  },
+  "homepage": "https://github.com/omeresmr/e-commerce-api#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "express-validator": "^7.3.1",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/morgan": "^1.9.10",
+    "dotenv": "^17.2.3",
+    "nodemon": "^3.1.11"
+  }
+}
